@@ -22,7 +22,7 @@ def register_new_staff(api: STAFF_API):
         return
     selected_staff = staff_details[option - 1]
     api.register_staff(selected_staff)
-    print_menu()
+    main()
 def get_all_staffs(api: STAFF_API):
     staffs = api.get_all_staffs()
     for staff in staffs:
