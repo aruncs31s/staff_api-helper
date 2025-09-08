@@ -20,18 +20,13 @@ def register_new_staff():
     if option < 1:
         return
     selected_staff = staff_details[option - 1]
-<<<<<<< Updated upstream
     register_staff(selected_staff)
-    print_menu()
-=======
-    api.register_staff(selected_staff)
-    del api , selected_staff , file_handler , staff_details, option
     main()
-def get_all_staffs(api: STAFF_API):
+
+def get_all_staffs(api):
     staffs = api.get_all_staffs()
     for staff in staffs:
         print(f"ID: {staff.get('staff_id')}, Name: {staff.get('full_name')}")
->>>>>>> Stashed changes
 def main():
     choice = print_menu()
     if choice == 1:
