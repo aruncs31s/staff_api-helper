@@ -1,0 +1,26 @@
+{
+    "staff_admission_details": [
+        {
+            "dept_id": 2,
+            "join_date": "2025-09-08T00:00:00+05:30",
+            "staff_id": "G1_EC",
+            "full_name": "Arun CS",
+            "type": 1,
+            "contract_type": 2,
+            "email": "arun.cs@example.com",
+            "phone": "1234567890",
+            "gender": "Male"
+        },
+        {
+            "dept_id": 2,
+            "join_date": "2025-09-08T00:00:00+05:30",
+            "staff_id": "G2_EC",
+            "full_name": "Praveen ABC",
+            "type": 1,
+            "contract_type": 2,
+            "email": "praveen.abc@example.com",
+            "phone": "1234567890",
+            "gender": "Male"
+        }
+    ]
+}
