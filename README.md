@@ -1,5 +1,6 @@
 # Staff API Helper
 
+
 A Python-based helper application for interacting with a Staff Management API. This tool provides a command-line interface and API client for managing staff information, including staff registration, retrieval, and qualification management.
 
 ## Features
@@ -460,3 +461,6 @@ If you encounter any issues or have questions about the Staff API Helper, please
 2. Ensure your API server is running on the correct port
 3. Verify your JSON data format matches the expected schema
 4. Open an issue in the GitHub repository for additional support
+
+See `.github/copilot-instructions.md` for detailed project context and development guidelines.
+

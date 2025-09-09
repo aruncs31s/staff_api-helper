@@ -1,8 +1,10 @@
-# Python cache files
-src/apis/__pycache__/*
+
+# Byte-compiled / optimized / DLL files
+
 __pycache__/
 *.py[cod]
 *$py.class
+
 
 # Virtual environment
 venv/
@@ -22,3 +24,4 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+
