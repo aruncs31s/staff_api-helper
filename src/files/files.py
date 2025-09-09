@@ -1,6 +1,9 @@
 import json
+import os
 
-data_path = 'data/new_staff_details.json'
+# Get the absolute path to the data file relative to the project root
+project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+data_path = os.path.join(project_root, 'data', 'new_staff_details.json')
 
 
 class FileHandler:
